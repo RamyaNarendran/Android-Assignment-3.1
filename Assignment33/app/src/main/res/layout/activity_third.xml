@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="420dp"
+    android:layout_height="600dp"
+    tools:context="com.example.ramya.assignment33.ThirdActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="RED"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:background="#ff0000"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="ORANGE"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:background="#ffbb00"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="YELLOW"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:background="#fffb00"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="GREEN"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:background="#63ff00"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="BLUE"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:textColor="#ffffff"
+                android:background="#0000ff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="INDIGO"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:textColor="#ffffff"
+                android:background="#440097"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="VIOLET"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:paddingTop="28dp"
+                android:background="#f680f6"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
